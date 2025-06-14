@@ -7,6 +7,8 @@
 - ** Theoretical Bandwidth** – Calculated estimate based on module width and frequency
 - ** Tests memory for integrity.
 
+uses streaming stores and loads bypassing the cache to get actual dram throughput and not cache assisted fake throughput as reported by other popular "benchmarking" tools. it uses write-combined memory allocation to at least batch memory writes to speed it up. but no cache is involved which is crucial point.
+
 ## 🚀 Usage
 1. Download `memtestspeed.exe`
 2. Run it as Administrator
